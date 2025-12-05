@@ -60,6 +60,7 @@ namespace Fitness_Tracker
                     cmd.ExecuteNonQuery();
 
                     MessageBox.Show("Successful");
+                    
 
                 }
                     
@@ -99,7 +100,7 @@ namespace Fitness_Tracker
                     else
                     {
                         reader.Close();
-                        throw new Exception("User doesn't exist");
+                        throw new Exception("Wrong username or password!");
          
                     }
 

@@ -31,6 +31,8 @@
             this.cuiPanelGradient1 = new CuoreUI.Controls.cuiPanelGradient();
             this.cuiLabel1 = new CuoreUI.Controls.cuiLabel();
             this.cuiPanel1 = new CuoreUI.Controls.cuiPanel();
+            this.linkLogin = new System.Windows.Forms.LinkLabel();
+            this.label2 = new System.Windows.Forms.Label();
             this.toggleConfirmPassword = new CuoreUI.Controls.cuiButton();
             this.togglePassword = new CuoreUI.Controls.cuiButton();
             this.confirmPasswordErrorTxt = new System.Windows.Forms.Label();
@@ -43,8 +45,6 @@
             this.cuiPictureBox1 = new CuoreUI.Controls.cuiPictureBox();
             this.cuiPanel2 = new CuoreUI.Controls.cuiPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.linkLogin = new System.Windows.Forms.LinkLabel();
             this.cuiPanelGradient1.SuspendLayout();
             this.cuiPanel1.SuspendLayout();
             this.cuiPanel2.SuspendLayout();
@@ -108,6 +108,31 @@
             this.cuiPanel1.Rounding = new System.Windows.Forms.Padding(20);
             this.cuiPanel1.Size = new System.Drawing.Size(500, 500);
             this.cuiPanel1.TabIndex = 1;
+            // 
+            // linkLogin
+            // 
+            this.linkLogin.AutoSize = true;
+            this.linkLogin.BackColor = System.Drawing.Color.Transparent;
+            this.linkLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLogin.Location = new System.Drawing.Point(240, 459);
+            this.linkLogin.Name = "linkLogin";
+            this.linkLogin.Size = new System.Drawing.Size(76, 17);
+            this.linkLogin.TabIndex = 4;
+            this.linkLogin.TabStop = true;
+            this.linkLogin.Text = "Login here";
+            this.linkLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLogin_LinkClicked);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.Location = new System.Drawing.Point(68, 459);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(177, 17);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Already have an account? ";
             // 
             // toggleConfirmPassword
             // 
@@ -406,31 +431,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Sign Up";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(68, 459);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(177, 17);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Already have an account? ";
-            // 
-            // linkLogin
-            // 
-            this.linkLogin.AutoSize = true;
-            this.linkLogin.BackColor = System.Drawing.Color.Transparent;
-            this.linkLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLogin.Location = new System.Drawing.Point(240, 459);
-            this.linkLogin.Name = "linkLogin";
-            this.linkLogin.Size = new System.Drawing.Size(76, 17);
-            this.linkLogin.TabIndex = 4;
-            this.linkLogin.TabStop = true;
-            this.linkLogin.Text = "Login here";
-            this.linkLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLogin_LinkClicked);
-            // 
             // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -440,6 +440,7 @@
             this.MinimumSize = new System.Drawing.Size(1000, 700);
             this.Name = "SignUp";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SignUp_FormClosed);
             this.cuiPanelGradient1.ResumeLayout(false);
             this.cuiPanel1.ResumeLayout(false);
             this.cuiPanel1.PerformLayout();

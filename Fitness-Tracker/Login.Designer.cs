@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.cuiPanelGradient1 = new CuoreUI.Controls.cuiPanelGradient();
-            this.cuiLabel1 = new CuoreUI.Controls.cuiLabel();
             this.cuiPanel1 = new CuoreUI.Controls.cuiPanel();
             this.linkLogin = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
@@ -49,7 +48,6 @@
             // 
             // cuiPanelGradient1
             // 
-            this.cuiPanelGradient1.Controls.Add(this.cuiLabel1);
             this.cuiPanelGradient1.Controls.Add(this.cuiPanel1);
             this.cuiPanelGradient1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cuiPanelGradient1.GradientAngle = 180F;
@@ -63,21 +61,6 @@
             this.cuiPanelGradient1.Rounding = new System.Windows.Forms.Padding(8);
             this.cuiPanelGradient1.Size = new System.Drawing.Size(982, 653);
             this.cuiPanelGradient1.TabIndex = 1;
-            // 
-            // cuiLabel1
-            // 
-            this.cuiLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.cuiLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.cuiLabel1.Content = "Welcome\\ To\\ GymBros";
-            this.cuiLabel1.Font = new System.Drawing.Font("Britannic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cuiLabel1.ForeColor = System.Drawing.Color.White;
-            this.cuiLabel1.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel1.Location = new System.Drawing.Point(250, 25);
-            this.cuiLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.cuiLabel1.Name = "cuiLabel1";
-            this.cuiLabel1.Size = new System.Drawing.Size(501, 48);
-            this.cuiLabel1.TabIndex = 2;
-            this.cuiLabel1.VerticalAlignment = System.Drawing.StringAlignment.Near;
             // 
             // cuiPanel1
             // 
@@ -362,7 +345,6 @@
         #endregion
 
         private CuoreUI.Controls.cuiPanelGradient cuiPanelGradient1;
-        private CuoreUI.Controls.cuiLabel cuiLabel1;
         private CuoreUI.Controls.cuiPanel cuiPanel1;
         private System.Windows.Forms.LinkLabel linkLogin;
         private System.Windows.Forms.Label label2;

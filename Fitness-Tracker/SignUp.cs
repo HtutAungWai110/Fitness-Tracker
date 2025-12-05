@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -51,7 +52,7 @@ namespace Fitness_Tracker
                 
             }else if(password.Trim().Length < 12 || password.Trim().Length > 12)
             {
-                method.ThrowErrorTxt(passwordErrorTxt, "Password must be exactly 12 characters");
+                method.ThrowErrorTxt(passwordErrorTxt, "Password must be exactly 12 characters long");
                 return;
           
             }else if (!method.HasLowerUpper(password))
@@ -73,6 +74,8 @@ namespace Fitness_Tracker
             userNameTxt.Content = "";
             passwordTxt.Content = "";
             confirmPasswordTxt.Content = "";
+
+      
 
 
         }
@@ -117,6 +120,11 @@ namespace Fitness_Tracker
             login.Show();
             this.Hide();
 
+        }
+
+        private void SignUp_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.ExitThread();
         }
     }
 }

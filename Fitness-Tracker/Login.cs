@@ -48,7 +48,7 @@ namespace Fitness_Tracker
             }
             else if (password.Trim().Length < 12 || password.Trim().Length > 12)
             {
-                method.ThrowErrorTxt(passwordErrorTxt, "Password must be exactly 12 characters");
+                method.ThrowErrorTxt(passwordErrorTxt, "Password must be exactly 12 characters long");
                 return;
 
             }
