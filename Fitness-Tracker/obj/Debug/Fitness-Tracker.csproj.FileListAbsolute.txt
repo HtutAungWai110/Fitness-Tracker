@@ -1,0 +1,17 @@
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\bin\Debug\Fitness.mdf
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\bin\Debug\Fitness_log.ldf
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\bin\Debug\Fitness-Tracker.exe.config
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\bin\Debug\Fitness-Tracker.exe
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\bin\Debug\Fitness-Tracker.pdb
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\bin\Debug\CuoreUI.dll
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\bin\Debug\cxl.dll
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness-Tracker.csproj.AssemblyReference.cache
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.SignUp.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.Properties.Resources.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness-Tracker.csproj.GenerateResource.cache
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness-Tracker.csproj.CoreCompileInputs.cache
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness-.8B0D1DC3.Up2Date
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness-Tracker.exe
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness-Tracker.pdb
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness-Tracker.exe.config
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.Login.resources
