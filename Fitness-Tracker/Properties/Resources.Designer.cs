@@ -63,6 +63,26 @@ namespace Fitness_Tracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2511177 {
+            get {
+                object obj = ResourceManager.GetObject("2511177", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_Dec_6__2025__10_39_29_PM {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image Dec 6, 2025, 10_39_29 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap history {
             get {
                 object obj = ResourceManager.GetObject("history", resourceCulture);
@@ -136,6 +156,26 @@ namespace Fitness_Tracker.Properties {
         internal static System.Drawing.Bitmap user1 {
             get {
                 object obj = ResourceManager.GetObject("user1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vecteezy_athletic_man_running_on_in_sportswear_55661429 {
+            get {
+                object obj = ResourceManager.GetObject("vecteezy_athletic-man-running-on-in-sportswear_55661429", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vecteezy_sporty_woman_jogging_healthy_lifestyle_stock_image_56485314 {
+            get {
+                object obj = ResourceManager.GetObject("vecteezy_sporty-woman-jogging-healthy-lifestyle-stock-image_56485314", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

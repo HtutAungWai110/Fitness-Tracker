@@ -21,5 +21,35 @@ namespace Fitness_Tracker
         {
 
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cuiCircleProgressBar1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cuiButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cuiPictureBox1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainApp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
