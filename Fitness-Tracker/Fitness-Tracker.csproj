@@ -134,6 +134,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Fitness.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\1667731.png" />
+    <None Include="Resources\2516635.png" />
+    <None Include="Resources\223918761.png" />
+    <None Include="Resources\22391876.png" />
+    <None Include="Resources\logo1.png" />
+    <None Include="Resources\270998171.png" />
+    <None Include="Resources\27099817.png" />
+    <None Include="Resources\22047872.png" />
+    <None Include="Resources\2511177.png" />
+    <None Include="Resources\vecteezy_athletic-man-running-on-in-sportswear_55661429.png" />
+    <None Include="Resources\ChatGPT Image Dec 6, 2025, 10_39_29 PM.png" />
+    <None Include="Resources\vecteezy_sporty-woman-jogging-healthy-lifestyle-stock-image_56485314.PNG" />
     <None Include="Resources\user1.png" />
     <None Include="Resources\history1.png" />
     <None Include="Resources\home2.png" />

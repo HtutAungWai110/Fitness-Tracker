@@ -59,7 +59,7 @@
             this.cuiPanelGradient1.PanelOutlineColor1 = System.Drawing.Color.Transparent;
             this.cuiPanelGradient1.PanelOutlineColor2 = System.Drawing.Color.Transparent;
             this.cuiPanelGradient1.Rounding = new System.Windows.Forms.Padding(8);
-            this.cuiPanelGradient1.Size = new System.Drawing.Size(982, 653);
+            this.cuiPanelGradient1.Size = new System.Drawing.Size(1262, 673);
             this.cuiPanelGradient1.TabIndex = 1;
             // 
             // cuiPanel1
@@ -77,7 +77,7 @@
             this.cuiPanel1.Controls.Add(this.cuiPictureBox1);
             this.cuiPanel1.Controls.Add(this.cuiPanel2);
             this.cuiPanel1.ForeColor = System.Drawing.Color.Transparent;
-            this.cuiPanel1.Location = new System.Drawing.Point(250, 80);
+            this.cuiPanel1.Location = new System.Drawing.Point(390, 90);
             this.cuiPanel1.Name = "cuiPanel1";
             this.cuiPanel1.OutlineThickness = 0F;
             this.cuiPanel1.PanelColor = System.Drawing.Color.White;
@@ -327,10 +327,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 653);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.cuiPanelGradient1);
-            this.MinimumSize = new System.Drawing.Size(1000, 700);
+            this.MinimumSize = new System.Drawing.Size(1280, 720);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Login_FormClosed);
             this.cuiPanelGradient1.ResumeLayout(false);

@@ -126,5 +126,11 @@ namespace Fitness_Tracker
         {
             Application.ExitThread();
         }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+            MainApp app = new MainApp();
+            app.Show();
+        }
     }
 }

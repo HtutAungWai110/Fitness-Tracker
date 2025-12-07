@@ -64,21 +64,21 @@
             this.cuiPanelGradient1.PanelOutlineColor1 = System.Drawing.Color.Transparent;
             this.cuiPanelGradient1.PanelOutlineColor2 = System.Drawing.Color.Transparent;
             this.cuiPanelGradient1.Rounding = new System.Windows.Forms.Padding(8);
-            this.cuiPanelGradient1.Size = new System.Drawing.Size(982, 653);
+            this.cuiPanelGradient1.Size = new System.Drawing.Size(1262, 673);
             this.cuiPanelGradient1.TabIndex = 0;
             // 
             // cuiLabel1
             // 
             this.cuiLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cuiLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.cuiLabel1.Content = "Welcome\\ To\\ GymBros";
+            this.cuiLabel1.Content = "Welcome\\ To\\ Fitnesstish";
             this.cuiLabel1.Font = new System.Drawing.Font("Britannic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuiLabel1.ForeColor = System.Drawing.Color.White;
             this.cuiLabel1.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel1.Location = new System.Drawing.Point(250, 25);
+            this.cuiLabel1.Location = new System.Drawing.Point(250, 35);
             this.cuiLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cuiLabel1.Name = "cuiLabel1";
-            this.cuiLabel1.Size = new System.Drawing.Size(501, 48);
+            this.cuiLabel1.Size = new System.Drawing.Size(781, 48);
             this.cuiLabel1.TabIndex = 2;
             this.cuiLabel1.VerticalAlignment = System.Drawing.StringAlignment.Near;
             // 
@@ -100,7 +100,7 @@
             this.cuiPanel1.Controls.Add(this.cuiPictureBox1);
             this.cuiPanel1.Controls.Add(this.cuiPanel2);
             this.cuiPanel1.ForeColor = System.Drawing.Color.Transparent;
-            this.cuiPanel1.Location = new System.Drawing.Point(250, 80);
+            this.cuiPanel1.Location = new System.Drawing.Point(390, 90);
             this.cuiPanel1.Name = "cuiPanel1";
             this.cuiPanel1.OutlineThickness = 0F;
             this.cuiPanel1.PanelColor = System.Drawing.Color.White;
@@ -435,12 +435,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 653);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.cuiPanelGradient1);
-            this.MinimumSize = new System.Drawing.Size(1000, 700);
+            this.MinimumSize = new System.Drawing.Size(1280, 720);
             this.Name = "SignUp";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SignUp_FormClosed);
+            this.Load += new System.EventHandler(this.SignUp_Load);
             this.cuiPanelGradient1.ResumeLayout(false);
             this.cuiPanel1.ResumeLayout(false);
             this.cuiPanel1.PerformLayout();

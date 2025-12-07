@@ -15,3 +15,4 @@ C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness-Tr
 C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness-Tracker.pdb
 C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness-Tracker.exe.config
 C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.Login.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.MainApp.resources
