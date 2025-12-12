@@ -143,9 +143,29 @@ namespace Fitness_Tracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bicycling_Grand_Tour_Sticker_by_Lazy_Daisy_Kennedy {
+            get {
+                object obj = ResourceManager.GetObject("Bicycling Grand Tour Sticker by Lazy Daisy Kennedy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ChatGPT_Image_Dec_6__2025__10_39_29_PM {
             get {
                 object obj = ResourceManager.GetObject("ChatGPT Image Dec 6, 2025, 10_39_29 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Happy_T_Shirt_Sticker {
+            get {
+                object obj = ResourceManager.GetObject("Happy T-Shirt Sticker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,6 +243,16 @@ namespace Fitness_Tracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Swimming_Pool_Water_Sticker_by_SwimOutlet {
+            get {
+                object obj = ResourceManager.GetObject("Swimming Pool Water Sticker by SwimOutlet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user {
             get {
                 object obj = ResourceManager.GetObject("user", resourceCulture);
@@ -256,6 +286,16 @@ namespace Fitness_Tracker.Properties {
         internal static System.Drawing.Bitmap vecteezy_sporty_woman_jogging_healthy_lifestyle_stock_image_56485314 {
             get {
                 object obj = ResourceManager.GetObject("vecteezy_sporty-woman-jogging-healthy-lifestyle-stock-image_56485314", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Walking_Adventure_Sticker_by_Tourism_Vancouver_Island {
+            get {
+                object obj = ResourceManager.GetObject("Walking Adventure Sticker by Tourism Vancouver Island", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

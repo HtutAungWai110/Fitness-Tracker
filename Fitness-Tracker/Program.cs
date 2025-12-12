@@ -14,9 +14,12 @@ namespace Fitness_Tracker
         [STAThread]
         static void Main()
         {
+       
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTextRenderingDefault(true);
             Application.Run(new SignUp());
+
+
         }
     }
 }

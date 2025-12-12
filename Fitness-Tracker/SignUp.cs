@@ -129,8 +129,7 @@ namespace Fitness_Tracker
 
         private void SignUp_Load(object sender, EventArgs e)
         {
-            MainApp app = new MainApp();
-            app.Show();
+            
         }
     }
 }

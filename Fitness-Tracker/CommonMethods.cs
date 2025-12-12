@@ -60,5 +60,85 @@ namespace Fitness_Tracker
 
             textBox.PasswordChar = !textBox.PasswordChar;
         }
+
+        public bool ConvertInt(string input)
+        {
+            if (int.TryParse(input, out int result))
+            {
+                if (result < 0)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+            return false;
+
+
+        }
+
+        public void ShowBtn(cuiTextBox input1, cuiTextBox input2, cuiTextBox input3, cuiButton button)
+        {
+            if (input1.Content.Trim() != "" && input2.Content.Trim() != "" && input3.Content.Trim() != "")
+            {
+                button.Visible = true;
+            }
+            else
+            {
+                button.Visible = false;
+            }
+        }
+
+        public void ShowBtn(cuiTextBox input1, cuiTextBox input2, cuiButton button)
+        {
+            if (input1.Content.Trim() != "" && input2.Content.Trim() != "")
+            {
+                button.Visible = true;
+            }
+            else
+            {
+                button.Visible = false;
+            }
+        }
+
+        public void ClearTextBoxes(cuiTextBox[] textBoxes)
+        {
+            foreach (cuiTextBox textBox in textBoxes)
+            {
+                textBox.Content = string.Empty;  // Sets the TextBox content to an empty string
+            }
+        }
+
+        public int MetBasedCalulation(int duration, int intensity, int weight, double constant)
+        {
+            double met;
+            switch (intensity)
+            {
+                case 0:
+                    met = 6;
+                    break;
+                case 1:
+                    met = 7.5;
+                    break;
+                case 2:
+                    met = 9.5;
+                    break;
+                default:
+                    met = 6;
+                    break;
+            }
+
+            int caloriesBurned = (int)Math.Floor((duration * met * weight) / constant);
+            return caloriesBurned;
+        }
+
+        public int MetBasedCalulation(int duration, int intensity, int weight, double constant, double constantTwo)
+        {
+            return (int)Math.Floor(MetBasedCalulation(duration, intensity, weight, constant) * constantTwo); 
+        }
+
     }
+ 
 }

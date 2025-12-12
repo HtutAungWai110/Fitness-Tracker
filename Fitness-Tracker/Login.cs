@@ -58,14 +58,21 @@ namespace Fitness_Tracker
                 return;
             }
 
-            User user = new User(username, password);
-            user.Login();
+            
+                User user = new User(username, password);
+                user.Login();
+                int userId = user.GetUerId();
+                if (userId == -1) return;
+                MainApp mainApp = new MainApp(userId, username);
+                mainApp.Show();
+                this.Hide();
+
         }
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
             SignIn();
-
+            
         }
 
         private void linkLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

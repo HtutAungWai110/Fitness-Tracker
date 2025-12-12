@@ -121,6 +121,9 @@
   <data name="vecteezy_athletic-man-running-on-in-sportswear_55661429" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vecteezy_athletic-man-running-on-in-sportswear_55661429.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Swimming Pool Water Sticker by SwimOutlet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Swimming Pool Water Sticker by SwimOutlet.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="27099817" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\27099817.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -133,8 +136,8 @@
   <data name="2511177" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2511177.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ChatGPT Image Dec 6, 2025, 10_39_29 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatGPT Image Dec 6, 2025, 10_39_29 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Happy T-Shirt Sticker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Happy T-Shirt Sticker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="223918761" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\223918761.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,17 +148,23 @@
   <data name="22047872" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\22047872.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Bicycling Grand Tour Sticker by Lazy Daisy Kennedy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bicycling Grand Tour Sticker by Lazy Daisy Kennedy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2516635" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2516635.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="22391876" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\22391876.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ChatGPT Image Dec 6, 2025, 10_39_29 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image Dec 6, 2025, 10_39_29 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="history1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\history1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,10 +181,13 @@
   <data name="home2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1667731" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1667731.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1667731" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1667731.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Walking Adventure Sticker by Tourism Vancouver Island" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Walking Adventure Sticker by Tourism Vancouver Island.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -68,7 +68,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonMethods.cs" />
+    <Compile Include="Cycling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cycling.Designer.cs">
+      <DependentUpon>Cycling.cs</DependentUpon>
+    </Compile>
     <Compile Include="Database.cs" />
+    <Compile Include="Hiking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hiking.Designer.cs">
+      <DependentUpon>Hiking.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,7 +101,25 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Swimming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Swimming.Designer.cs">
+      <DependentUpon>Swimming.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
+    <Compile Include="Walking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Walking.Designer.cs">
+      <DependentUpon>Walking.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cycling.resx">
+      <DependentUpon>Cycling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hiking.resx">
+      <DependentUpon>Hiking.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +139,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Swimming.resx">
+      <DependentUpon>Swimming.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Walking.resx">
+      <DependentUpon>Walking.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -134,6 +170,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Fitness.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\Happy T-Shirt Sticker.gif" />
+    <None Include="Resources\Swimming Pool Water Sticker by SwimOutlet.gif" />
+    <None Include="Resources\Bicycling Grand Tour Sticker by Lazy Daisy Kennedy.gif" />
+    <None Include="Resources\Walking Adventure Sticker by Tourism Vancouver Island.gif" />
+    <Content Include="Walking.c">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Walking.Designer.c" />
     <None Include="Resources\1667731.png" />
     <None Include="Resources\2516635.png" />
     <None Include="Resources\223918761.png" />
