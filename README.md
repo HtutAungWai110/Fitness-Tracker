@@ -18,6 +18,7 @@ Customize these based on your implementation
 ✔ Analytics / progress tracking dashboard
 ✔ Responsive UI (if a frontend is included)
 ✔ APIs for CRUD operations
+```bash
 
 | Layer    | Technology                                                    |
 | -------- | ------------------------------------------------------------- |
@@ -25,6 +26,7 @@ Customize these based on your implementation
 | Database | (e.g., SQL Server / SQLite / EF Core) — *specify your choice* |
 | Frontend | (if any: Blazor / MVC Views / SPA) — *specify*                |
 | Tools    | Visual Studio / CLI (.NET SDK)                                |
+```
 
 
 📥 Prerequisites
@@ -40,32 +42,40 @@ Database engine (if used): SQL Server / SQLite / PostgreSQL, etc.
 🗂️ Getting Started
 1. Clone the repository
 
+```bash
 git clone https://github.com/HtutAungWai110/Fitness-Tracker.git
 cd Fitness-Tracker
+```
 
 2. Open the solution
-
+```bash
 Open Fitness-Tracker.sln in Visual Studio or via command line.
 dotnet restore
+```
 
 4. Build the project
-   dotnet build
+```bash
+dotnet build
+```
 
-5. Configure Database (if applicable)
+6. Configure Database (if applicable)
 
 Create or update your connection string in appsettings.json or environment variables:
-
+```bash
 "ConnectionStrings": {
   "DefaultConnection": "YOUR_DATABASE_CONNECTION_STRING"
 }
+```
 
 Apply migrations (if using EF Core):
-
+```bash
 dotnet ef database update
+```
 
 6. Run the application
+```bash
 dotnet run --project YourProjectName
-
+```
 📌 Usage
 
 Once running:
@@ -79,7 +89,7 @@ Start logging workouts — include attributes like date, duration, calories, etc
 View progress history and summaries.
 
 🧰 Project Structure
-
+```bash
 Fitness-Tracker/
 ├── Fitness-Tracker.sln
 ├── src/                     # Main project(s)
@@ -88,7 +98,7 @@ Fitness-Tracker/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
+```
 
 
 
