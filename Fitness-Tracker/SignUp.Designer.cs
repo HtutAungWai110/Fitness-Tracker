@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp));
             this.cuiPanelGradient1 = new CuoreUI.Controls.cuiPanelGradient();
             this.cuiLabel1 = new CuoreUI.Controls.cuiLabel();
             this.cuiPanel1 = new CuoreUI.Controls.cuiPanel();
@@ -71,7 +72,7 @@
             // 
             this.cuiLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cuiLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.cuiLabel1.Content = "Welcome\\ To\\ Fitnesstish";
+            this.cuiLabel1.Content = "Welcome\\ To\\ Fitness\\ Tracker\\ App";
             this.cuiLabel1.Font = new System.Drawing.Font("Britannic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuiLabel1.ForeColor = System.Drawing.Color.White;
             this.cuiLabel1.HorizontalAlignment = System.Drawing.StringAlignment.Center;
@@ -81,6 +82,7 @@
             this.cuiLabel1.Size = new System.Drawing.Size(781, 48);
             this.cuiLabel1.TabIndex = 2;
             this.cuiLabel1.VerticalAlignment = System.Drawing.StringAlignment.Near;
+            this.cuiLabel1.Load += new System.EventHandler(this.cuiLabel1_Load);
             // 
             // cuiPanel1
             // 
@@ -437,6 +439,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.cuiPanelGradient1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1280, 720);
             this.Name = "SignUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

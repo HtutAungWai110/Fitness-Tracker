@@ -143,6 +143,26 @@ namespace Fitness_Tracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Animation_Skipping_Sticker {
+            get {
+                object obj = ResourceManager.GetObject("Animation Skipping Sticker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Art_Girl_Sticker_by_Carolynn {
+            get {
+                object obj = ResourceManager.GetObject("Art Girl Sticker by Carolynn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bicycling_Grand_Tour_Sticker_by_Lazy_Daisy_Kennedy {
             get {
                 object obj = ResourceManager.GetObject("Bicycling Grand Tour Sticker by Lazy Daisy Kennedy", resourceCulture);

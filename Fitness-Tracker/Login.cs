@@ -17,6 +17,10 @@ namespace Fitness_Tracker
             InitializeComponent();
         }
 
+        private int loginAttempts = 0;
+        private bool isLocked = false;
+
+
         CommonMethods method = new CommonMethods();
 
         private void SignIn()
@@ -58,21 +62,47 @@ namespace Fitness_Tracker
                 return;
             }
 
-            
-                User user = new User(username, password);
+            User user = new User(username, password, this);
+            if (loginAttempts >= 5)
+            {
+                user.LockUserAccount();
+                MessageBox.Show("Too many failed login attempts. Your account has been temporarily locked. Try again later");
+                this.isLocked = true;
+                return;
+
+            }
+            try
+            {
                 user.Login();
                 int userId = user.GetUerId();
                 if (userId == -1) return;
                 MainApp mainApp = new MainApp(userId, username);
                 mainApp.Show();
                 this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
 
+
+            }
         }
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
+            if (isLocked)
+            {
+                MessageBox.Show("Your account is locked. Please try again later.");
+                return;
+            }
             SignIn();
-            
+          
+
+        }
+
+        public void IncrementLoginAttempts()
+        {
+            loginAttempts++;
         }
 
         private void linkLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

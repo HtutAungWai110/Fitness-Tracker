@@ -15,8 +15,8 @@ namespace Fitness_Tracker
     {
         private int userId;
         private int goalId;
-        private MainApp _mainApp;
-        public Walking(MainApp mainApp, int userId, int goalId)
+        private Home _mainApp;
+        public Walking(Home mainApp, int userId, int goalId)
         {
             
             InitializeComponent();
@@ -32,47 +32,32 @@ namespace Fitness_Tracker
 
         CommonMethods method = new CommonMethods();
 
-        
-
-        public int CalculateCaloriesBurned(int numsOfSteps, int distance, int timeTaken)
-        {
-            double caloriesPerStep = 0.04;
-            double caloriesPerMeter = 0.05;
-
-            int caloriesFromSteps = (int)(numsOfSteps * caloriesPerStep);
-            int caloriesFromDistance = (int)(distance * caloriesPerMeter);
-
-            double caloriesPerMinute = 4.5;  
-            int caloriesFromTime = (int)(timeTaken * caloriesPerMinute);
-
-           
-            int totalCaloriesBurned = caloriesFromSteps + caloriesFromDistance + caloriesFromTime;
-
-            return totalCaloriesBurned;
-        }
-
-        
-
-        private void submitBtn_Click(object sender, EventArgs e)
+        private void SubmitActivity()
         {
             string steps = stepsInput.Content;
             string distance = distanceInput.Content;
             string time = timeInput.Content;
 
-            cuiTextBox[] textBoxes = {stepsInput, distanceInput, timeInput };
+            cuiTextBox[] textBoxes = { stepsInput, distanceInput, timeInput };
 
             if (!method.ConvertInt(steps) || !method.ConvertInt(distance) || !method.ConvertInt(time))
             {
                 MessageBox.Show("Enter valid value");
                 return;
             }
+            Activity activity = new Activity("Walking");
 
-            int caloriesBurnt = CalculateCaloriesBurned(int.Parse(steps), int.Parse(distance), int.Parse(time));
-            User user = new User(this.userId, this.goalId);
-            user.UpdateActivity("Walking", caloriesBurnt);
+            int caloriesBurned = activity.CalWalkingCaloriesBurned(int.Parse(steps), int.Parse(distance), int.Parse(time));
+
+            activity.submitActivity(this.userId, this.goalId, caloriesBurned);
             method.ClearTextBoxes(textBoxes);
             this._mainApp.LoadInfo();
+        }
 
+        private void submitBtn_Click(object sender, EventArgs e)
+        {
+
+            SubmitActivity();
         }
         private void distanceInput_ContentChanged(object sender, EventArgs e)
         {

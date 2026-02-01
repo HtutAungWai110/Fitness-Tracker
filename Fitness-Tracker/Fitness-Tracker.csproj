@@ -67,6 +67,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activity.cs" />
+    <Compile Include="ActivityData.cs" />
+    <Compile Include="ActivityHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ActivityHistory.Designer.cs">
+      <DependentUpon>ActivityHistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="CommonMethods.cs" />
     <Compile Include="Cycling.cs">
       <SubType>Form</SubType>
@@ -75,11 +83,30 @@
       <DependentUpon>Cycling.cs</DependentUpon>
     </Compile>
     <Compile Include="Database.cs" />
+    <Compile Include="GoalData.cs" />
+    <Compile Include="GoalHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GoalHistory.Designer.cs">
+      <DependentUpon>GoalHistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hiking.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Hiking.Designer.cs">
       <DependentUpon>Hiking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JumpingRope.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JumpingRope.Designer.cs">
+      <DependentUpon>JumpingRope.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -92,6 +119,18 @@
     </Compile>
     <Compile Include="MainApp.Designer.cs">
       <DependentUpon>MainApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NavBar.Designer.cs">
+      <DependentUpon>NavBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
     </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
@@ -108,23 +147,53 @@
       <DependentUpon>Swimming.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <Compile Include="Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="Walking.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Walking.Designer.cs">
       <DependentUpon>Walking.cs</DependentUpon>
     </Compile>
+    <Compile Include="Yoga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yoga.Designer.cs">
+      <DependentUpon>Yoga.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActivityHistory.resx">
+      <DependentUpon>ActivityHistory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cycling.resx">
       <DependentUpon>Cycling.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GoalHistory.resx">
+      <DependentUpon>GoalHistory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hiking.resx">
       <DependentUpon>Hiking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JumpingRope.resx">
+      <DependentUpon>JumpingRope.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainApp.resx">
       <DependentUpon>MainApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavBar.resx">
+      <DependentUpon>NavBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
@@ -142,8 +211,14 @@
     <EmbeddedResource Include="Swimming.resx">
       <DependentUpon>Swimming.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Walking.resx">
       <DependentUpon>Walking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yoga.resx">
+      <DependentUpon>Yoga.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -174,6 +249,8 @@
     <None Include="Resources\Swimming Pool Water Sticker by SwimOutlet.gif" />
     <None Include="Resources\Bicycling Grand Tour Sticker by Lazy Daisy Kennedy.gif" />
     <None Include="Resources\Walking Adventure Sticker by Tourism Vancouver Island.gif" />
+    <None Include="Resources\Art Girl Sticker by Carolynn.gif" />
+    <None Include="Resources\Animation Skipping Sticker.gif" />
     <Content Include="Walking.c">
       <SubType>Form</SubType>
     </Content>

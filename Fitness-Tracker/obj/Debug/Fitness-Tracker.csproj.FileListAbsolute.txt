@@ -20,3 +20,11 @@ C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tr
 C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.Swimming.resources
 C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.Cycling.resources
 C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.Hiking.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.Yoga.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.JumpingRope.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.Home.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.NavBar.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.History.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.GoalHistory.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.ActivityHistory.resources
+C:\Users\95944\source\repos\Fitness-Tracker\Fitness-Tracker\obj\Debug\Fitness_Tracker.Profile.resources

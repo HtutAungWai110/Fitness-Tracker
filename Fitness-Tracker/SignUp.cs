@@ -25,7 +25,7 @@ namespace Fitness_Tracker
 
         CommonMethods method = new CommonMethods();
 
-        private void register()
+        private void Register()
         {
             string username = userNameTxt.Content;
             string password = passwordTxt.Content;
@@ -82,7 +82,7 @@ namespace Fitness_Tracker
 
         private void signUpBtn_Click(object sender, EventArgs e)
         {
-            register();
+            Register();
 
         }
 
@@ -114,11 +114,16 @@ namespace Fitness_Tracker
             method.TogglePassword(toggleConfirmPassword, confirmPasswordTxt);
         }
 
-        private void linkLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void OpenLogin()
         {
             Login login = new Login();
             login.Show();
             this.Hide();
+        }
+
+        private void linkLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenLogin();    
 
         }
 
@@ -130,6 +135,11 @@ namespace Fitness_Tracker
         private void SignUp_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void cuiLabel1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

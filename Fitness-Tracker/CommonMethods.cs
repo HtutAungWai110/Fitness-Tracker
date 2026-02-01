@@ -37,18 +37,21 @@ namespace Fitness_Tracker
 
         public void ThrowErrorTxt(System.Windows.Forms.Label label, string output)
         {
-            label.Visible = true;
+            //Show error text to lable
+            label.Visible = true; 
             label.Text = output;
         }
 
         public void HideError(System.Windows.Forms.Label label)
         {
+            //For hiding error text
             if (!label.Visible) return;
             label.Visible = false;
         }
 
         public void TogglePassword(cuiButton button, cuiTextBox textBox)
         {
+            //Convert passowrd format to normal text and vice versa
             if (button.Content == "Show")
             {
                 button.Content = "Hide";
@@ -63,6 +66,7 @@ namespace Fitness_Tracker
 
         public bool ConvertInt(string input)
         {
+            //Check if the input is a valid positive integer
             if (int.TryParse(input, out int result))
             {
                 if (result < 0)
@@ -81,6 +85,7 @@ namespace Fitness_Tracker
 
         public void ShowBtn(cuiTextBox input1, cuiTextBox input2, cuiTextBox input3, cuiButton button)
         {
+            //Show button if all textboxes are filled
             if (input1.Content.Trim() != "" && input2.Content.Trim() != "" && input3.Content.Trim() != "")
             {
                 button.Visible = true;
@@ -105,39 +110,14 @@ namespace Fitness_Tracker
 
         public void ClearTextBoxes(cuiTextBox[] textBoxes)
         {
+
             foreach (cuiTextBox textBox in textBoxes)
             {
                 textBox.Content = string.Empty;  // Sets the TextBox content to an empty string
             }
         }
 
-        public int MetBasedCalulation(int duration, int intensity, int weight, double constant)
-        {
-            double met;
-            switch (intensity)
-            {
-                case 0:
-                    met = 6;
-                    break;
-                case 1:
-                    met = 7.5;
-                    break;
-                case 2:
-                    met = 9.5;
-                    break;
-                default:
-                    met = 6;
-                    break;
-            }
-
-            int caloriesBurned = (int)Math.Floor((duration * met * weight) / constant);
-            return caloriesBurned;
-        }
-
-        public int MetBasedCalulation(int duration, int intensity, int weight, double constant, double constantTwo)
-        {
-            return (int)Math.Floor(MetBasedCalulation(duration, intensity, weight, constant) * constantTwo); 
-        }
+        
 
     }
  

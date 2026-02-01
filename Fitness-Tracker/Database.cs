@@ -15,10 +15,10 @@ namespace Fitness_Tracker
 
         public SqlConnection GetConnection()
         {
-            return new SqlConnection(connectionString);
+            return new SqlConnection(connectionString); // returns SqlConnection 
         }
 
-        public static string GetProjectDirectory()
+        private static string GetProjectDirectory()
         {
             string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
             DirectoryInfo directoryInfo = new DirectoryInfo(baseDirectory);

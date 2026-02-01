@@ -15,8 +15,8 @@ namespace Fitness_Tracker
     {
         private int userId;
         private int goalId;
-        private MainApp _mainApp;
-        public Swimming(MainApp mainApp, int userId, int goalId)
+        private Home _mainApp;
+        public Swimming(Home mainApp, int userId, int goalId)
         {
 
             InitializeComponent();
@@ -43,10 +43,8 @@ namespace Fitness_Tracker
             method.ShowBtn(durationInput, weightInput, submitBtn);
         }
 
-        
 
-
-        private void submitBtn_Click(object sender, EventArgs e)
+        private void SubmitActivity()
         {
             string duration = durationInput.Content;
             int intensity = intensityDropDown.SelectedIndex;
@@ -60,14 +58,22 @@ namespace Fitness_Tracker
                 return;
             }
 
-            int caloriesBurned = method.MetBasedCalulation(int.Parse(duration), intensity, int.Parse(weight), 60.00);
 
-            
 
-            User user = new User(this.userId, this.goalId);
-            user.UpdateActivity("Swimming", caloriesBurned);
+            Activity activity = new Activity("Swimming");
+
+            int caloriesBurned = activity.MetBasedCalulation(int.Parse(duration), intensity, int.Parse(weight), 60.00);
+
+            activity.submitActivity(this.userId, this.goalId, caloriesBurned);
+
+
             method.ClearTextBoxes(textBoxes);
             this._mainApp.LoadInfo();
+        }
+
+        private void submitBtn_Click(object sender, EventArgs e)
+        {
+            SubmitActivity();
         }
 
         private void Swimming_Load(object sender, EventArgs e)
